@@ -1,0 +1,31 @@
+{
+  // ------------------------ 格式化代码 ------------------------
+  // 一个制表符等于的空格数
+  "editor.tabSize": 2,
+  // 启用后，保存文件时在文件末尾插入一个最终新行。
+  "files.insertFinalNewline": true,
+  // 启用后，保存文件时将删除在最终新行后的所有新行。
+  "files.trimFinalNewlines": true,
+  // 启用后，将在保存文件时剪裁尾随空格。
+  "files.trimTrailingWhitespace": true,
+  // 在保存时运行的代码操作类型
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // 定义非必要分号的处理方式：删除不必要的分号
+  "javascript.format.semicolons": "remove",
+  // 是否在每行末尾加一个分号
+  "prettier.semi": false,
+  // 使用单引号
+  "prettier.singleQuote": true,
+  // 换行字符串阈值
+  "prettier.printWidth": 100,
+  // JSX 有多个属性时，将 `>` 放在最后一行的末尾，而不是单独放在下一行（不适用于自闭元素）
+  "prettier.bracketSameLine": true,
+  // 当箭头函数仅有一个参数时是否加上括号
+  "prettier.arrowParens": "avoid",
+  // 控制尾随逗号的输出
+  "prettier.trailingComma": "none",
+  // 控制编辑器是否自动格式化粘贴的内容。格式化程序必须可用，并且能针对文档中的某一范围进行格式化。
+  "editor.formatOnPaste": true
+}
